@@ -1,0 +1,21 @@
+{
+  "name": "drake-theme",
+  "displayName": "Drake Theme",
+  "description": "A theme created for real drakes",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.99.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Drake",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Drake-color-theme.json"
+      }
+    ]
+  }
+}
