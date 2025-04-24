@@ -2,29 +2,76 @@
 	"name": "Drake",
 	"colors": {
 		//EDITOR
-		"editor.background": "#252933",
+		"editor.background": "#262a35",
 		"editor.foreground": "#fefefe",
 		"editorLineNumber.foreground": "#2fd4fd50",
 		"editorLineNumber.activeForeground": "#2fd4fd",
 		"editor.selectionBackground": "#9ae5fc50",
 		"editor.inactiveSelectionBackground": "#9ae5fc50",
 		"editorCursor.foreground": "#6bc7d3",
+		"editorWidget.background" :	"#262a35",
+		"editorWidget.border":"#171b24",
+		"editorWidget.resizeBorder":"#ffae00",
+		"editorWidget.foreground":"#748096",
+		"editor.findMatchBackground":"#9ae5fc0a",
+		"editor.findMatchHighlightBackground":"#87e7ee34",
+		"input.background":"#282d3a",
+		"input.border":"#74809656",
+		"input.foreground" :"#748096",
 
 		//ACTIVITY BAR
-		"activityBar.background": "#1f1f1f",
-		"activityBar.foreground": "#fefefe",
-		"activityBarBadge.background": "#95e6fa",
+		"activityBar.background": "#262a35",
+		"activityBar.foreground": "#748096",
+		"activityBarBadge.background": "#e74c88",
 		"activityBarBadge.foreground": "#2a2a2a",
+		"activityBar.activeBackground":"#252a31",
+		"activityBar.activeBorder":"#ffae00",
+		"activityBar.border":"#1c1e20",
+		"icon.foreground":"#748096",
+		"activityBar.inactiveForeground" : "#74809670",
+		
+		
+
+
+		//TAB
+		"tab.activeForeground":"#76a7e7",
+		"tab.inactiveForeground":"#748096",
+		"tab.activeBorderTop":"#ffae00",
+		"tab.inactiveBackground":"#22252e",
+		"tab.border":"#1d1e1f",
+		"tab.inactiveModifiedBorder":"#1d1e1f",
+
+		
+
 
 		//SIDE BAR
 		"sideBar.background": "#22252e",
 		"sideBar.foreground": "#fefefe",
-		"sideBarTitle.foreground": "#95e6fa",
-		"sideBarSectionHeader.foreground": "#95e6fa",
+		"sideBarTitle.foreground": "#6f7696",
+		"sideBarSectionHeader.foreground": "#6f7696",
+		"sideBarActivityBarTop.border":"#ffae00",
+		"sideBarTitle.background":"#22252e",
+		"sideBarSectionHeader.background":"#22252e",
+		"sideBarSectionHeader.border":"#7496bd41",
+		"sideBarTitle.border":"#7496bd41",
 		"sideBar.border" :"#161b25",
 
+
+		//TERMINAL
+		"terminal.background":"#22252e",
+		"terminal.foreground":"#fefefea6",
+		"terminal.border":"#161b25",
+		"terminal.tab.activeBorder":"#ffae00",
+
+
+
+		//SCROLL BAR
+		"scrollbarSlider.background":"#7496bd41",
+		"scrollbarSlider.hoverBackground":"#7496bd41",
+		"scrollbarSlider.activeBackground" : "#7496bd52",
+
 		//STATUS BAR
-		"statusBar.background": "#22252e",
+		"statusBar.background": "#2c303b",
 		"statusBar.foreground": "#95e6fa",
 		"statusBar.focusBorder" : "#95e6faad",
 		"statusBarItem.activeBackground" : "#9bffff52",
@@ -33,13 +80,22 @@
 		//TITTLE BAR
 		"titleBar.activeBackground": "#22252e",
 		"titleBar.activeForeground": "#fefefe",
+		
+		"foreground":"#6c778d",
 
 		//MENU BAR
 		"menubar.selectionBackground" :"#95e6fac7",
-		"progressBar.background":"#08ff5a",
-		"menu.background" :"#44445a",
-		"menu.selectionBackground":"#95e6faad",
-		"debugIcon.breakpointForeground":"#95e6fa"
+		"progressBar.background":"#95e6fa",
+		"menu.background" :"#262a35",
+		"menu.selectionBackground":"#5365692d",
+		"menu.foreground":"#6c778d",
+		"menu.border":"#27272796",
+		"titleBar.border":"#0000004f",
+		"menu.separatorBackground":"#90e2f775",
+		"debugIcon.breakpointForeground":"#95e6fa",
+
+
+		"banner.background" : "#77f70f"
 	},
 	"tokenColors": [
 		{
@@ -50,7 +106,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#d79cff"
+				"foreground": "#969696"
 			}
 		},
 		{
@@ -98,21 +154,30 @@
 			"scope": [
 				"keyword.control",
 				"constant.other.color",
-				"punctuation",
 				"meta.tag",
+				"punctuation",
+				"keyword.other.template",
+				"keyword.other.substitution"
+			],
+			"settings": {
+				"foreground": "#4ef71a"
+			}
+		},
+		{
+			"name": "Operator, Misc",
+			"scope": [
 				"punctuation.definition.tag",
 				"punctuation.separator.inheritance.php",
 				"punctuation.definition.tag.html",
 				"punctuation.definition.tag.begin.html",
 				"punctuation.definition.tag.end.html",
 				"punctuation.section.embedded",
-				"keyword.other.template",
-				"keyword.other.substitution"
 			],
 			"settings": {
-				"foreground": "#89DDFF"
+				"foreground": "#6dddff"
 			}
 		},
+		
 		{
 			"name": "Tag",
 			"scope": [
