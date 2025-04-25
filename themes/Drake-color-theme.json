@@ -15,10 +15,14 @@
 		"editorWidget.foreground":"#748096",
 		"editor.findMatchBackground":"#9ae5fc0a",
 		"editor.findMatchHighlightBackground":"#87e7ee34",
+		"editor.lineHighlightBorder": "#9debff4f",
 		"editorBracketHighlight.foreground1": "#ffb347",
 		"editorBracketHighlight.foreground2": "#ffb347",
 		"editorBracketHighlight.foreground3": "#ffb347",
 		"editorBracketHighlight.foreground4": "#ffb347",
+		"editorGroup.dropBackground":"#acf5ff13",
+		"editorGroup.dropIntoPromptBackground":"#acf5ff13",
+		"editorStickyScroll.shadow":"#98f3eba1",
 
 
 		//INPUT
@@ -156,7 +160,17 @@
 		"checkbox.selectBorder" : "#fff890",
 		
 
+		//MINIMAP
+		"minimap.findMatchHighlight" :"#7df6face",
+		"minimap.selectionHighlight" : 	"#c0fff7ef",
+		"minimap.errorHighlight":"#FF5555",
+		"minimap.warningHighlight":"#fff890",
+		"minimap.selectionOccurrenceHighlight":"#c0fff7ef",
+		"minimap.foregroundOpacity":"#000000c0",
+		"minimapGutter.addedBackground":"#77f70f",
 
+		"textLink.foreground": "#80CBC4",           // Color del enlace
+		"textLink.activeForeground": "#FFCB6B" ,     // Color al pasar el mouse
 
 
 		"banner.background" : "#77f70f"
@@ -166,7 +180,11 @@
 			"name": "Comment",
 			"scope": [
 				"comment",
-				"punctuation.definition.comment"
+				"punctuation.definition.comment",
+				"string.quoted.docstring.multi.python",
+				"string.quoted.double.block.python",
+				"comment.block.documentation.python",
+				"string.quoted.docstring.python"
 			],
 			"settings": {
 				"fontStyle": "italic",
@@ -181,7 +199,7 @@
 				"constant.other.color"
 			],
 			"settings": {
-				"foreground": "#edfff6"
+				"foreground": "#ffffff"
 			}
 		},
 		{
@@ -208,7 +226,7 @@
 			"scope": [
 				"storage.type",
 				"storage.modifier",
-				"keyword.control"
+
 			],
 			"settings": {
 				"foreground": "#d8598e"
@@ -226,12 +244,31 @@
 				"punctuation.section.block",
 				"entity.name.tag",
 				"meta.tag.sgml",
-				"markup.deleted.git_gutter"
+				"markup.deleted.git_gutter",
+				"variable.other.enummember",
+				"constant.language",
+				"constant.other.enum",
+				"support.constant",
+				"variable.other.constant"
 			],
 			"settings": {
-				"foreground": "#6dddff"
+				"foreground": "#a6eaff"
 			}
 		},
+		{
+			"name": "Annotations and Decorators",
+			"scope": [
+			  "storage.type.annotation.java",
+			  "meta.annotation.java",
+			  "entity.name.tag.annotation.java",
+			  "storage.type.annotation",
+			  "meta.decorator.python"
+			],
+			"settings": {
+			  "foreground": "#a1e9ff",  // Color llamativo o pastel
+			  "fontStyle": "bold"
+			}
+		  },
 		{
 			"name": "Function, Special Method",
 			"scope": [
@@ -253,7 +290,7 @@
 				"string.other.link"
 			],
 			"settings": {
-				"foreground": "#edfff6"
+				"foreground": "#ffffff"
 			}
 		},
 		{
@@ -271,6 +308,21 @@
 			}
 		},
 		{
+			"name": "Basic Data Types",
+			"scope": [
+				"storage.type.primitive.java",
+				"storage.type.primitive.cs",
+				"storage.type.cs",             // Incluye string en C#
+				"keyword.type.cpp",
+				"storage.type",
+				"keyword.type"
+			],
+			"settings": {
+			  "foreground": "#d8598e",  // Color pastel o el que tú quieras
+			  "fontStyle": "bold"
+			}
+		  },
+		{
 			"name": "Number, Function Argument",
 			"scope": [
 				"constant.numeric",
@@ -278,12 +330,11 @@
 				"constant.character",
 				"constant.escape",
 				"variable.parameter",
-				"variable.other.object"   
 
 
 			],
 			"settings": {
-				"foreground": "#FDCF76"
+				"foreground": "#b8eeff"
 			}
 		},
 		{
@@ -296,8 +347,6 @@
 				"markup.heading",
 				"markup.inserted.git_gutter",
 				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js",
-				"keyword.control",
-				"constant.other.color",
 				"meta.tag",
 				"keyword.other.template",
 				"keyword.other.substitution"
@@ -357,7 +406,7 @@
 				"entity.name.function.constructor",
 			],
 			"settings": {
-				"foreground": "#a2e2ff"
+				"foreground": "#ad7dfa"
 			}
 		},
 		{
