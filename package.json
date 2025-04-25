@@ -3,7 +3,7 @@
   "displayName": "Drake Theme",    
   "publisher": "rogodev",          
   "description": "The Official Drake Theme: Transform your workspace with the power and elegance of a dragon, featuring mystical pastel colors for a unique, immersive visual experience perfect for long coding sessions.",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "engines": {
     "vscode": "^1.88.0"
   },
@@ -13,7 +13,7 @@
       {
         "label": "Drake Theme",
         "uiTheme": "vs-dark",
-        "path": "./themes Drake-color-theme.json"
+        "path": "./themes/Drake-color-theme.json"
       }
     ]
   }
