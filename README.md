@@ -10,7 +10,7 @@ All instructions can be found at [Drake theme web in progress](https://link-a-tu
 
 ## Color Palette
 
-| Palette      | Hex       | RGB              | HSL                 | ![Color Picker Boxes](https://link-a-tus-imagenes-del-logo.com)   |
+| Palette      | Hex       | RGB              | HSL                 | ![Color Picker Boxes](https://github.com/rogodev/Drake-Theme/blob/master/images/color_picker.png?raw=true)   |
 | ------------ | --------- | -------------    | ---------------     | ----------------------------------------------------------------------------------- |
 | Background   | `#262a35` | `38,42,53`       | `224°,16% ,18%`     | ![Background Color](https://github.com/rogodev/Drake-Theme/blob/master/images/background_color.png?raw=true)     |
 | Comment      | `#6c778d` | `108,119,141`  | `220°,13%,49%`  | ![Comment Color](https://github.com/rogodev/Drake-Theme/blob/master/images/comment.png?raw=true)           |
